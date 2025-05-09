@@ -1,0 +1,8 @@
+backup:
+  interval-minutes: 10
+  archive-days: 7
+  max-backups: 10
+  worlds:
+    - world
+    - world_nether
+    - world_the_end

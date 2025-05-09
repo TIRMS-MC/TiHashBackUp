@@ -1,0 +1,12 @@
+name: TiHashBackUp
+version: '1.0.0-beta1'
+main: com.tcms.tiHashBackUp.TiHashBackUp
+api-version: '1.21'
+commands:
+  tihashbackup:
+    description: Manage world file backups
+    usage: /<command> [save|list|restore]
+permissions:
+  tihashbackup.use:
+    description: Allows use of tihashbackup commands
+    default: op
